@@ -118,10 +118,10 @@ def Barcode(m, n):
 
 
 if __name__ == "__main__":
-    m = 80
-    n = 10
-    #m = int(input("(interger times of 16)barcode number: "))
-    #n = int(input("barcode length: "))
+    #m = 80
+    #n = 10
+    m = int(input("(interger times of 16)barcode number: "))
+    n = int(input("barcode length: "))
     designed_barcode, mordified_dis_matrix_squareform, base_ratios = Barcode(m, n)
     for i in range(len(designed_barcode)):
         for j in range(len(designed_barcode[0])):
